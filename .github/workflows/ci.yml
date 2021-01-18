@@ -49,4 +49,4 @@ jobs:
       - name: Run Acceptance Tests
         run : php  vendor/behat/behat/bin/behat --config behat.yaml
       - name: Run Tests
-        run : php vendor/symfony/phpunit-bridge/bin/simple-phpunit --testsuite unit, integration
+        run : php vendor/symfony/phpunit-bridge/bin/simple-phpunit --testsuite unit
