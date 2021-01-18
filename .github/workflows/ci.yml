@@ -16,7 +16,7 @@ jobs:
         phpunit-versions: ['latest']
         include:
           - operating-system: 'ubuntu-latest'
-            php-versions: '7.2'
+            php-versions: '7.4'
             phpunit-versions: '8.5.13'
     steps:
       - name: Checkout
