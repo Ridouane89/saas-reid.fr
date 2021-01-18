@@ -2,9 +2,9 @@ name: PHP Composer
 
 on:
   push:
-    branches: [ develop ]
+    branches: [ feature/ci ]
   pull_request:
-    branches: [ develop ]
+    branches: [ feature/ci ]
 jobs:
   run:
     name: Saas-reid
