@@ -1,0 +1,6 @@
+# Default ignored files
+/workspace.xml
+/shelf/
+
+# CodeStream ignored files
+/../../Saas-reid.fr\.idea/codestream.xml
