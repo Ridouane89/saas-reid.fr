@@ -1,4 +1,10 @@
 name: Continuous Integration
+
+on:
+  push:
+    branches: [ develop ]
+  pull_request:
+    branches: [ develop ]
 jobs:
   run:
     name: Saas-reid
